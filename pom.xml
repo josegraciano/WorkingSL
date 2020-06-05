@@ -81,4 +81,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub josegraciano Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/josegraciano/WorkingSL</url>
+        </repository>
+    </distributionManagement>
 </project>
